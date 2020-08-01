@@ -1,0 +1,39 @@
+{
+  "name": "rw-pages",
+  "version": "0.1.0",
+  "description": "static web app workflow",
+  "keywords": [
+    "rw-pages",
+    "zce"
+  ],
+  "homepage": "https://github.com//rw-pages#readme",
+  "bugs": {
+    "url": "https://github.com//rw-pages/issues"
+  },
+  "license": "MIT",
+  "author": "",
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com//rw-pages.git"
+  },
+  "scripts": {
+    "lint": "standard --fix",
+    "test": "ava"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^3.9.0",
+    "standard": "^14.3.4"
+  },
+  "engines": {
+    "node": ">=8"
+  }
+}
